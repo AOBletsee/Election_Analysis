@@ -67,7 +67,7 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
     1. We initialized a variable to hold the vote count:
 
        ```
-         \# Initialize a total vote counter.
+       \# Initialize a total vote counter.
        
        total_votes = 0
        ```
@@ -79,11 +79,11 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
        
        with open(file_to_load) as election_data:
        
-       	reader = csv.reader(election_data)
+       	  reader = csv.reader(election_data)
        	
        	\# Read the header
        
-       	header = next(reader)
+       	  header = next(reader)
        ```
 
      3. We created a *for loop* that iterated through each row and extracted the total votes, adding to the vote count variable:
@@ -129,7 +129,7 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
        ```
        \# Extract the county name from each row.
        
-       	 county_name = row[1]
+       	  county_name = row[1]
        ```
 
     2. Using an *if statement*, we compiled the list of county names from the list and the vote count for each of the counties into a Python dictionary. We then printed to terminal and saved in our .txt file:
@@ -240,7 +240,7 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
                print(candidate_results)
                #  Save the candidate results to our text file.
                txt_file.write(candidate_results)
-                ```
+              
 
 
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
@@ -270,7 +270,7 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
         
         # Save the winning candidate's name to the text file
         txt_file.write(winning_candidate_summary)
-         ```
+       
 
 
 ### Election-Audit Summary
