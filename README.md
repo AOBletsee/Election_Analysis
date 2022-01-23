@@ -75,27 +75,27 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
     2. We initialized a variable to reference the information we are reading from the data contained in our .csv file throughout the entire code:
 
        ```
-       \# Read the csv and convert it into a list of dictionaries
+   \# Read the csv and convert it into a list of dictionaries
        
-       with open(file_to_load) as election_data:
+   with open(file_to_load) as election_data:
        
-            reader = csv.reader(election_data)
+       reader = csv.reader(election_data)
        	
-            \# Read the header
+       \# Read the header
        
-            header = next(reader)
+       header = next(reader)
        ```
 
      3. We created a *for loop* that iterated through each row and extracted the total votes, adding to the vote count variable:
 
           ```
-              \# For each row in the CSV file.
+         \# For each row in the CSV file.
           
-              for row in reader:
+          for row in reader:
           
-                  \# Add to the total vote count
+                \# Add to the total vote count
           
-          	      total_votes = total_votes + 1
+          	    total_votes = total_votes + 1
           		
           ```
 
