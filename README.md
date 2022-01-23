@@ -79,9 +79,9 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
        
        with open(file_to_load) as election_data:
        
-       	  reader = csv.reader(election_data)
+          reader = csv.reader(election_data)
        	
-       	\# Read the header
+       	  \# Read the header
        
        	  header = next(reader)
        ```
@@ -91,28 +91,28 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
           ```
           \# For each row in the CSV file.
           
-          		for row in reader:
+          for row in reader:
           
-          \# Add to the total vote count
+            \# Add to the total vote count
           
-          		total_votes = total_votes + 1
+          	total_votes = total_votes + 1
           		
           ```
 
       4. We saved the results to our .txt file and wrote an *f string* that also preempted the following line to be printed, the title to 'County Votes', printing to terminal and saving to the .txt file:
 
-              \# Save results to our .txt file:
-              with open(file_to_save, "w") as txt_file:
-              # Print the final vote count (to terminal)
-              election_results = (
+            \# Save results to our .txt file:
+             with open(file_to_save, "w") as txt_file:
+                # Print the final vote count (to terminal)
+                election_results = (
                   f"\nElection Results\n"
                   f"-------------------------\n"
                   f"Total Votes: {total_votes:,}\n"
                   f"-------------------------\n\n"
                   f"County Votes:\n")
-              print(election_results, end="")
+                print(election_results, end="")
               
-              txt_file.write(election_results)
+                txt_file.write(election_results)
 
 
 
