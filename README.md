@@ -89,13 +89,13 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
      3. We created a *for loop* that iterated through each row and extracted the total votes, adding to the vote count variable:
 
           ```
-            \# For each row in the CSV file.
+              \# For each row in the CSV file.
           
-            for row in reader:
+              for row in reader:
           
-                \# Add to the total vote count
+                  \# Add to the total vote count
           
-          	    total_votes = total_votes + 1
+          	      total_votes = total_votes + 1
           		
           ```
 
