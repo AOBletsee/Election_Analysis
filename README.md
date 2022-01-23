@@ -79,11 +79,11 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
        
        with open(file_to_load) as election_data:
        
-          reader = csv.reader(election_data)
+            reader = csv.reader(election_data)
        	
-       	  \# Read the header
+            \# Read the header
        
-       	  header = next(reader)
+            header = next(reader)
        ```
 
      3. We created a *for loop* that iterated through each row and extracted the total votes, adding to the vote count variable:
