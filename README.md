@@ -31,7 +31,7 @@ Aside from the initial information we were tasked with reporting, there were mul
 
 The election_analysis.txt file can be found here: [Analysis/election_analysis.txt]
 
-In the bulleted items below, we will break down the answers to each question about the results obtained, and how we were able to achieve them using Python coding. Please note that, while transcription of code to this Read.me file is merely illustrative, all of the coding in its integrity can be vizualized in the PyPoll_Challenge.py file: [Pypoll_Challenge.py]
+In the bulleted items below, we will break down the answers to each question about the results obtained, and how we were able to achieve them using Python coding. Please note that, while transcription of code to this Read.me file is merely illustrative, all of the coding in its integrity can be vizualized in the PyPoll_Challenge.py file: https://github.com/AOBletsee/Election_Analysis/blob/c38f55e93096edf2eb2fdd698c24bee62e4f2285/PyPoll_Challenge.py
 
 This is how we initialized our code:
 
