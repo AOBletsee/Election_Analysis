@@ -60,7 +60,7 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
 
   - Here is a screenshot of that number, as seen in our final .txt file:
 
-    ![Screenshot_Total_Votes](/Users/anabisker/Desktop/Data_Analytics_Bootcamp/Module_03/Election_Analysis/Resources/ScreenShot_Total_Votes.png)
+    ![Screenshot_Total_Votes](Resources/ScreenShot_Total_Votes.png)
 
   - In order to arrive at this result, we used a coding function. Here are some snippets of that function, extracted from the totality of the code: 
 
@@ -120,7 +120,7 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
 
   - Here is a screenshot of the breakdown containing the number of votes and percentage of votes that were counted for each county, as seen in our final .txt file:
 
-    ![ScreenShot_Numbers_per_County](/Users/anabisker/Desktop/Data_Analytics_Bootcamp/Module_03/Election_Analysis/Resources/ScreenShot_Numbers_per_County.png)
+    ![ScreenShot_Numbers_per_County](Resources/ScreenShot_Numbers_per_County.png)
 
   - On the coding end, the way we arrived at this breakdown was the following:
 
@@ -178,7 +178,7 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
 
   - Here is a screenshot of the county with the largest number of votes, as seen in our final .txt file:
 
-    ![ScreenShot_Largest_Vote](/Users/anabisker/Desktop/Data_Analytics_Bootcamp/Module_03/Election_Analysis/Resources/ScreenShot_Largest_Vote.png)
+    ![ScreenShot_Largest_Vote](Resources/ScreenShot_Largest_Vote.png)
 
   - On the coding end, in order to obtain the county with the largest vote turnout, we wrote an *if statement* to determine the county with the largest turnout, printing it to terminal and saving into our .txt file:
 
@@ -199,7 +199,7 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
 - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
 
   - Here is a screenshot of the breakdown containing the number of votes and percentage of the total votes that for each candidate received, as seen in our final .txt file:
-    ![ScreenShot_Numbers_per_Candidate](/Users/anabisker/Desktop/Data_Analytics_Bootcamp/Module_03/Election_Analysis/Resources/ScreenShot_Numbers_per_Candidate.png)
+    ![ScreenShot_Numbers_per_Candidate](Resources/ScreenShot_Numbers_per_Candidate.png)
 
   - On the coding end, the way we arrived at this breakdown was the following:
 
@@ -248,7 +248,7 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
 
   - Here is a screenshot of the winner, vote count and percentage, as seen in our final .txt file:
 
-    ![ScreenShot_Winner](/Users/anabisker/Desktop/Data_Analytics_Bootcamp/Module_03/Election_Analysis/Resources/ScreenShot_Winner.png)
+    ![ScreenShot_Winner](Resources/ScreenShot_Winner.png)
 
   - On the coding end, in order to obtain the name of the winning candidate, we wrote an *if statement* to determine conditions using our pre-established variables that held values that had been collected throughout the code; and creating new ones to hold our results. We wrote an *f string* concatenating this final set of results, and then proceeded to print it to terminal and save into our .txt file:
 
