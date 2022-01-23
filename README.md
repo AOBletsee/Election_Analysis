@@ -64,7 +64,7 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
 
   - In order to arrive at this result, we used a coding function. Here are some snippets of that function, extracted from the totality of the code: 
 
-    1) We initialized a variable to hold the vote count:
+    1. We initialized a variable to hold the vote count:
 
        ```
          \# Initialize a total vote counter.
@@ -72,7 +72,7 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
        total_votes = 0
        ```
 
-  - 2) We initialized a variable to reference the information we are reading from the data contained in our .csv file throughout the entire code:
+    2. We initialized a variable to reference the information we are reading from the data contained in our .csv file throughout the entire code:
 
        ```
        \# Read the csv and convert it into a list of dictionaries
@@ -86,7 +86,7 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
        	header = next(reader)
        ```
 
-       3. We created a *for loop* that iterated through each row and extracted the total votes, adding to the vote count variable:
+     3. We created a *for loop* that iterated through each row and extracted the total votes, adding to the vote count variable:
 
           ```
           \# For each row in the CSV file.
@@ -99,7 +99,7 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
           		
           ```
 
-       4. We saved the results to our .txt file and wrote an *f string* that also preempted the following line to be printed, the title to 'County Votes', printing to terminal and saving to the .txt file:
+      4. We saved the results to our .txt file and wrote an *f string* that also preempted the following line to be printed, the title to 'County Votes', printing to terminal and saving to the .txt file:
 
               \# Save results to our .txt file:
               with open(file_to_save, "w") as txt_file:
@@ -133,7 +133,7 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
        ```
 
     2. Using an *if statement*, we compiled the list of county names from the list and the vote count for each of the counties into a Python dictionary. We then printed to terminal and saved in our .txt file:
-
+               ```
                \# Write an if statement that checks that the
                \# county does not match any existing county in the county list.
                if county_name not in county_list:
@@ -152,7 +152,8 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
                
                 #Save the county votes to a text file.
                txt_file.write(county_results)
-
+               ```
+         
     3. Finally, using a *for loop* to iterate through the dictionary containing the names of the counties and the total votes,  retrieving each county name and its respective vote count, calculating the percentage of votes in each county, and writing an *f string* that concatenated all that information, printing to terminal and then saving into our .txt file:
 
            \# Write a for loop to get the county from the county dictionary.
@@ -224,7 +225,7 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
                candidate_votes[candidate_name] += 1
 
     3. Finally, using a *for loop* to iterate through the list of candidates and the total votes,  we retrieved each candidate name and their respective vote count, calculating the percentage of votes for each candidate, and writing an *f string* that concatenated all that information, printing to terminal and then saving into our .txt file:
-
+            ```
            \#Save the final candidate vote count to the text file.
            
            for candidate_name in candidate_votes:
@@ -239,7 +240,7 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
                print(candidate_results)
                #  Save the candidate results to our text file.
                txt_file.write(candidate_results)
-
+                ```
 
 
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
@@ -251,7 +252,7 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
     ![ScreenShot_Winner](Resources/ScreenShot_Winner.png)
 
   - On the coding end, in order to obtain the name of the winning candidate, we wrote an *if statement* to determine conditions using our pre-established variables that held values that had been collected throughout the code; and creating new ones to hold our results. We wrote an *f string* concatenating this final set of results, and then proceeded to print it to terminal and save into our .txt file:
-
+         ```
          \#Determine winning vote count, winning percentage, and candidate.
          if (votes > winning_count) and (vote_percentage > winning_percentage):
                 winning_count = votes
@@ -269,7 +270,7 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
         
         # Save the winning candidate's name to the text file
         txt_file.write(winning_candidate_summary)
-
+         ```
 
 
 ### Election-Audit Summary
