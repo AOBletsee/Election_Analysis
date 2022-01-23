@@ -22,15 +22,16 @@ Adding these functions to our original code was fairly easy, demonstrating the *
 
 ### Election-Audit Results 
 
-Aside from the initial information we were tasked with reporting, there were multiple infer additional answers which we are able to provide by analyzing the election-audit results using our code, as seen as  listed items in the final .txt file we provided:
+Aside from the initial information we were tasked with reporting, there were multiple infer additional answers which we are able to provide by analyzing the election-audit results using our code, as seen as listed items in the screenshot of the final .txt file we provided:
 
 
 
 ![ScreenShot_All_Results](Resources/ScreenShot_All_Results.png)
 
 
+The election_analysis.txt file can be found here: [Analysis/election_analysis.txt]
 
-In the bulleted items below, we will break down the answers to each question about the results obtained, and how we were able to achieve them using Python coding.
+In the bulleted items below, we will break down the answers to each question about the results obtained, and how we were able to achieve them using Python coding. Please note that, while transcription of code to this Read.me file is merely illustrative, all of the coding in its integrity can be vizualized in the PyPoll_Challenge.py file: [Pypoll_Challenge.py]
 
 This is how we initialized our code:
 
