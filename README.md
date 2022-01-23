@@ -73,7 +73,7 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
        total_votes = 0
        ```
 
-  - 2) We initialized a variable to reference the information we are reading from the data contained in our .csv file throughout the entire code:
+    2) We initialized a variable to reference the information we are reading from the data contained in our .csv file throughout the entire code:
 
        ```
        \# Read the csv and convert it into a list of dictionaries
@@ -87,7 +87,7 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
        	header = next(reader)
        ```
 
-       3. We created a *for loop* that iterated through each row and extracted the total votes, adding to the vote count variable:
+      3) We created a *for loop* that iterated through each row and extracted the total votes, adding to the vote count variable:
 
           ```
           \# For each row in the CSV file.
@@ -100,7 +100,7 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
           		
           ```
 
-       4. We saved the results to our .txt file and wrote an *f string* that also preempted the following line to be printed, the title to 'County Votes', printing to terminal and saving to the .txt file:
+       4) We saved the results to our .txt file and wrote an *f string* that also preempted the following line to be printed, the title to 'County Votes', printing to terminal and saving to the .txt file:
 
               \# Save results to our .txt file:
               with open(file_to_save, "w") as txt_file:
