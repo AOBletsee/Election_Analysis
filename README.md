@@ -26,6 +26,7 @@ Aside from the initial information we were tasked with reporting, there were mul
 
 
 
+
 ![ScreenShot_All_Results](Resources/ScreenShot_All_Results.png)
 
 
@@ -200,6 +201,7 @@ file_to_save = os.path.join("Analysis", "election_analysis.txt")
 - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
 
   - Here is a screenshot of the breakdown containing the number of votes and percentage of the total votes that for each candidate received, as seen in our final .txt file:
+  
     ![ScreenShot_Numbers_per_Candidate](Resources/ScreenShot_Numbers_per_Candidate.png)
 
   - On the coding end, the way we arrived at this breakdown was the following:
