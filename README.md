@@ -2,15 +2,15 @@
 
 ### Overview
 
-##### Initial Approach
+#### Initial Approach
 
 We were assigned the job of performing an audit of tabulated election results for a Congressional precinct in Colorado. We were orginally tasked with reporting the total of votes cast, the total of votes per candidate, the percentage of votes for each candidate, and finally, declaring the winner of the race based on popular vote.
 
-##### Data Automation
+#### Data Automation
 
 Tabulated data in this case, stored in .csv format, is comprised of a long list of name, last name, county where each individual voted, as well as their respective ballot ID.  While an analysis like this could be performed using Excel for a small precinct, *automating data analysis using Python* can provide for a more comprehensive backdrop in which to perform wider-reaching searches, as well as enabling the possibility of reproducing the use of generated codes for vote count and analysis of larger areas, in Senatorial races, other local elections, and more.
 
-##### Further Analysis
+#### Further Analysis
 
 With effective coding methods using Python, we were able to create a powerful tool that generated an organized, clear .txt document that contained all of the election results and percentages, satisfying the inital job with which we were tasked. 
 
